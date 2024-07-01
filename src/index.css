@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  outline: 0;
+}
+
+.sender::after {
+  content: '';
+  position: absolute;
+  right: -7px;
+  background-repeat: no-repeat;
+  top: -5.5px;
+  height: 21px;
+  width: 14px;
+  background-image: url(../public/bluearrow.png);
+  background-size: contain;
+  background-position: right;
+}
+
+.messgener::before {
+  content: '';
+  position: absolute;
+  left: -9px;
+  background-repeat: no-repeat;
+  top: -5.5px;
+  height: 21px;
+  width: 14px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAkCAYAAAAdFbNSAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFwSURBVHgB1ZjRTcMwEIb/c/oAElLpBhmBEcomYQJgAmACYALYADYoG8AGdIOQqFJ4SY67lCCEgCat7djfQ+zEfvh0svLbJnyS51U6mdApc5MBdIiAoa5TltWrNCkiwOijLFcZIhFWWmlmShERZt3QGyKilW4aekREtNKz2f5SmidEguk6dY0TWd1RLJMvaa02s7lCBJjvL9Pp3g0zghen3z4WRXVJhAsECv01ELI4/TcYqjhtmhCi+EZppSjez4j4GoHQS1qRrWuWJLhDAPSWVkR8niT8MPZ+e5C0kueroyQxizHFzcD5kpwHL3XdHEsILTESgyvdocczY7CQP0sKz2wtrYwlvpO0Mob4ztKKb3Er0opPcWvSii9xq9KKD3Hr0oprcSfSiopL5D+7SM7BidgXPXNqcro4LDuTVtaRT+ewjFNpRSp+z8y3sIizNf0TuZWVnSHmsIDzSnfIZZC1qwlvlVak2gwLeKu0TaKU/gAu2oSHFiy9rAAAAABJRU5ErkJggg==);
+  background-size: contain;
+  background-position: right;
+}

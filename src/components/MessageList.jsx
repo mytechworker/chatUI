@@ -8,7 +8,7 @@ const MessageList = () => {
 
   return (
     <div className="flex-1 overflow-y-auto p-4">
-      <div className="text-[#666668] text-base">{Date.date}</div>
+      <div className="text-[#666668] text-base pb-5">{Date.date}</div>
 
       {messages.map((message) => (
         <MessageItem key={message.id} message={message} />
