@@ -1,0 +1,107 @@
+{
+  "date": "8/20/2020",
+
+  "messages": [
+    {
+      "id": 1,
+      "text": "Hi team 👋",
+      "sender": {
+        "name": "You",
+        "profession": "",
+        "avatar": "../assets/avatar.svg",
+        "issend": "true",
+        "isActive": true
+      },
+      "time": "11:31 AM"
+    },
+    {
+      "id": 2,
+      "text": "Anyone on for lunch today",
+      "sender": {
+        "name": "You",
+        "profession": "",
+        "issend": "true",
+
+        "isActive": true
+      },
+      "time": "11:31 AM"
+    },
+    {
+      "id": 3,
+      "text": "I'm down! Any ideas??",
+      "sender": {
+        "name": "Jav",
+        "profession": "Engineering",
+        "avatar": "../assets/avatar-with-background-2.svg",
+        "isActive": true
+      },
+      "time": "11:35 AM"
+    },
+    {
+      "id": 4,
+      "text": "I am down for whatever!",
+      "sender": {
+        "name": "You",
+        "profession": "",
+        "issend": "true",
+        "isActive": true
+      },
+      "time": "11:36 AM"
+    },
+    {
+      "id": 5,
+      "text": "I was thinking the cafe downtown",
+      "sender": {
+        "name": "Aubrey",
+        "profession": "Product",
+        "avatar": "../assets/avatar-with-background-1.svg",
+        "isActive": true
+      },
+      "time": "11:45 AM"
+    },
+    {
+      "id": 6,
+      "text": "But limited vegan options @Janet!",
+      "sender": {
+        "name": "Aubrey",
+        "profession": "Product",
+        "avatar": "../assets/avatar-with-background-1.svg",
+        "isActive": true
+      },
+      "time": "11:46 AM"
+    },
+    {
+      "id": 7,
+      "text": "Agreed",
+      "sender": {
+        "name": "You",
+        "profession": "",
+        "issend": "true",
+        "isActive": true
+      },
+      "time": "11:52 PM"
+    },
+    {
+      "id": 8,
+      "text": "That works- I was actually planning to get a smoothie anyways 👍",
+      "sender": {
+        "name": "Janet",
+        "profession": "Engineering",
+        "avatar": "../assets/avatar-with-background.svg",
+        "isActive": false
+      },
+      "time": "12:03 PM"
+    },
+    {
+      "id": 9,
+      "text": "On for 12:30 PM then ?",
+      "sender": {
+        "name": "Janet",
+        "profession": "Product",
+        "avatar": "../assets/avatar.svg",
+        "isActive": true
+      },
+      "time": "12:04 PM"
+    }
+  ]
+}
