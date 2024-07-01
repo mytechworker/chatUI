@@ -19,17 +19,19 @@ const MessageItem = ({ message }) => {
               ""
             )}
           </div>
-          <div className="ml-2 bg-gray-200 p-2 rounded-lg flex gap-2">
+          <div className="ml-2 bg-[#F2F2F7] p-[6px] rounded-lg flex gap-2 relative messgener">
             <div className="flex flex-col">
               <div className="flex flex-row text-sm gap-[10px] items-center">
-                <div className="text-sm font-semibold">
+                <div className="text-sm font-semibold text-[#2C2C2E]">
                   {message.sender.name}
                 </div>
-                <div className="text-xs text-gray-500">
+                <div className="text-xs text-[#666668]">
                   {message.sender.profession}
                 </div>
               </div>
-              <div className="text-sm mt-2 text-[#2C2C2E]">{message.text}</div>
+              <div className="text-sm mt-2 mb-3 text-[#2C2C2E]">
+                {message.text}
+              </div>
             </div>
             <div className="text-xs text-[#666668] flex  items-end pt-2">
               {message.time}
@@ -38,11 +40,11 @@ const MessageItem = ({ message }) => {
         </div>
       )}
       {isUser && (
-        <div className="bg-[#007AFF] text-white p-2 rounded-lg max-w-xs text-sm">
+        <div className="bg-[#007AFF] text-white p-2 rounded-lg max-w-xs text-sm flex gap-4 relative sender">
           <div>{message.text}</div>
-          <div className="flex justify-end gap-1 items-center">
-            <div className="text-right text-xs mt-2 ">{message.time}</div>
-            <img src={tick} alt="send" srcset="" />
+          <div className="flex justify-end gap-1 items-center pt-5">
+            <div className="text-right text-xs ">{message.time}</div>
+            <img src={tick} alt="send" />
           </div>
         </div>
       )}

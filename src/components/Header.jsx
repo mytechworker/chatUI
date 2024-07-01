@@ -10,7 +10,7 @@ const Header = () => {
     );
 
   return (
-    <div className="flex items-center justify-between p-4 bg-white shadow-md">
+    <div className="flex items-center justify-between p-4 bg-white shadow-md gap-2">
       <div className="flex items-center">
         {teamMembers.map((member, index) => (
           <div key={index} className="relative -mr-3">
@@ -19,13 +19,10 @@ const Header = () => {
               alt={member.name}
               className="w-8 h-8 rounded-full"
             />
-            {/* {member.isActive && (
-              <span className="absolute bottom-0 right-0 h-3 w-3 bg-green-500 rounded-full border-2 border-white"></span>
-            )} */}
           </div>
         ))}
       </div>
-      <div className="flex items-center justify-center flex-col">
+      <div className="flex items-center justify-center flex-col sm:-ml-[86px]">
         <h1 className="text-sm font-semibold">🦄 Team Unicorns</h1>
         <div className="text-gray-500 text-[12px]">
           last seen 45 minutes ago
